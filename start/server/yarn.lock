@@ -1067,6 +1067,11 @@ cache-base@^1.0.1:
     union-value "^1.0.0"
     unset-value "^1.0.0"
 
+caller@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/caller/download/caller-1.0.1.tgz#b851860f70e195db3d277395aa1a7e23ea30ecf5"
+  integrity sha1-uFGGD3Dhlds9J3OVqhp+I+ow7PU=
+
 callsites@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/callsites/download/callsites-2.0.0.tgz#06eb84f00eea413da86affefacbffb36093b3c50"
@@ -4625,6 +4630,13 @@ require-directory@^2.1.1:
   version "2.1.1"
   resolved "https://registry.npm.taobao.org/require-directory/download/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
   integrity sha1-jGStX9MNqxyXbiNE/+f3kqam30I=
+
+require-graphql-file@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/require-graphql-file/download/require-graphql-file-1.0.1.tgz#7242ee37b85777b915f0aa8943c995cff7726cfa"
+  integrity sha1-ckLuN7hXd7kV8KqJQ8mVz/dybPo=
+  dependencies:
+    caller "^1.0.1"
 
 require-main-filename@^1.0.1:
   version "1.0.1"
