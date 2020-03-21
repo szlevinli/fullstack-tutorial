@@ -1,5 +1,5 @@
 module.exports = {
-  client: {
-    service: 'jl-free-first-graph'
+  service: {
+    localSchemaFile: './src/schema/schema.graphql'
   }
 };
